@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.875rem, 1.25rem + 3.3333vw, 3.75rem);
+  max-inline-size: 1200px;
+  min-inline-size: 300px;
+  block-size: 100vh;
+  margin: 0 auto;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  background-color: #1b1919;
+}
+
+.header {
+  margin-block-start: clamp(1.25rem, 0.8099rem + 1.8779vw, 2.5rem);
+  margin-inline: clamp(1.25rem, 0.8099rem + 1.8779vw, 2.5rem);
+}
+
+.header__title {
+  align-self: center;
+  font-size: clamp(1.875rem, 0.5546rem + 5.6338vw, 5.625rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0.9;
+}
+
+.header__title-accent {
+  display: block;
+  font-size: clamp(1.5rem, 0.4437rem + 4.507vw, 4.5rem);
+  color: #c79494;
+}
+
+.content__hieroglyphs {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.875rem, 1.25rem + 3.3333vw, 3.75rem);
+  align-items: center;
+  margin: 0 auto;
+  width: clamp(12.5rem, 4.1667rem + 44.4444vw, 37.5rem);
+}
+
+.hirogana-A {
+  height: inherit;
+  stroke: currentColor;
+  stroke-width: 20;
+  stroke-linecap: round;
+}
+
+.hirogana-A__one {
+  stroke-dasharray: 300;
+  opacity: 0;
+  /* stroke-dashoffset: 300; */
+  /* animation: one 2s ease-in-out forwards; */
+}
+
+.hirogana-A__two {
+  stroke-dasharray: 600;
+  opacity: 0;
+  /* stroke-dashoffset: 600; */
+  /* animation: two 3s ease-in-out 1.4s forwards; */
+}
+
+.hirogana-A__three {
+  stroke-dasharray: 1000;
+  opacity: 0;
+  /* stroke-dashoffset: 1000; */
+  /* animation: three 4s ease-in-out 3.2s forwards; */
+}
+
+/* @keyframes one {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+} */
+
+/* @keyframes two {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+} */
+
+/* @keyframes three {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+} */
+
+.hieroglyphs-btn {
+  inline-size: 50%;
+  block-size: 50px;
+  border-radius: 10px;
+  border: 1px solid #c79494;
+  background-color: transparent;
+  color: #c79494;
+  font-family: inherit;
+  font-size: clamp(0.75rem, 0.5833rem + 0.8889vw, 1.25rem);
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.hieroglyphs-btn:hover {
+  border-color: #fff;
+  color: #fff;
+  transition: 0.3s ease;
+}
