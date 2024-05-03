@@ -74,3 +74,5 @@ function animateOpacityHirogana() {
 hieroglyphBtn.addEventListener("click", () => {
   animateOpacityHirogana(), setTimeout(animateHirogana(), 400);
 });
+
+

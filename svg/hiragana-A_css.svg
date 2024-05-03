@@ -1,0 +1,163 @@
+<svg id="hiragana-a" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 333 398"
+    shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <style>
+        /* <![CDATA[ */
+        #hiragana-a {
+            /* pointer-events: all */
+        }
+
+        #hiragana-a * {
+            /* animation-play-state: paused !important */
+        }
+
+        #hiragana-a:hover * {
+            /* animation-play-state: running !important */
+        }
+
+        #hiragana-a-path1 {
+            animation-name: hiragana-a-path1_opacity, hiragana-a-path1_dashoffset;
+            animation-duration: 7000ms;
+            animation-fill-mode: forwards;
+            animation-timing-function: linear;
+            animation-direction: normal;
+            animation-iteration-count: 1;
+        }
+
+        @keyframes hiragana-a-path1_opacity {
+            0% {
+                opacity: 0
+            }
+
+            51.428571% {
+                opacity: 0;
+                animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1)
+            }
+
+            65.714286% {
+                opacity: 1
+            }
+
+            100% {
+                opacity: 1
+            }
+        }
+
+        @keyframes hiragana-a-path1_dashoffset {
+            0% {
+                stroke-dashoffset: 913.95
+            }
+
+            54.285714% {
+                stroke-dashoffset: 913.95;
+                animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1)
+            }
+
+            100% {
+                stroke-dashoffset: 0
+            }
+        }
+
+        #hiragana-a-path2 {
+            animation-name: hiragana-a-path2_opacity, hiragana-a-path2_dashoffset;
+            animation-duration: 7000ms;
+            animation-fill-mode: forwards;
+            animation-timing-function: linear;
+            animation-direction: normal;
+            animation-iteration-count: 1;
+        }
+
+        @keyframes hiragana-a-path2_opacity {
+            0% {
+                opacity: 0
+            }
+
+            22.857143% {
+                opacity: 0;
+                animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1)
+            }
+
+            35.714286% {
+                opacity: 1
+            }
+
+            100% {
+                opacity: 1
+            }
+        }
+
+        @keyframes hiragana-a-path2_dashoffset {
+            0% {
+                stroke-dashoffset: 352.41
+            }
+
+            25.714286% {
+                stroke-dashoffset: 352.41;
+                animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1)
+            }
+
+            57.142857% {
+                stroke-dashoffset: 0
+            }
+
+            100% {
+                stroke-dashoffset: 0
+            }
+        }
+
+        #hiragana-a-path3 {
+            animation-name: hiragana-a-path3_opacity, hiragana-a-path3_dashoffset;
+            animation-duration: 7000ms;
+            animation-fill-mode: forwards;
+            animation-timing-function: linear;
+            animation-direction: normal;
+            animation-iteration-count: 1;
+        }
+
+        @keyframes hiragana-a-path3_opacity {
+            0% {
+                opacity: 0;
+                animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1)
+            }
+
+            14.285714% {
+                opacity: 1
+            }
+
+            100% {
+                opacity: 1
+            }
+        }
+
+        @keyframes hiragana-a-path3_dashoffset {
+            0% {
+                stroke-dashoffset: 204.53
+            }
+
+            2.857143% {
+                stroke-dashoffset: 204.53;
+                animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1)
+            }
+
+            28.571429% {
+                stroke-dashoffset: 0
+            }
+
+            100% {
+                stroke-dashoffset: 0
+            }
+        }
+
+        /* ]]> */
+    </style>
+    <g id="hiragana-a-g" transform="translate(0 0.25)" fill="none" stroke="#fff" stroke-width="20"
+        stroke-linecap="round">
+        <path id="hiragana-a-path3" d="M39.5,107.5c21,32.5,174-11.5,198-18.5" opacity="0"
+            paint-order="stroke markers fill" stroke-dashoffset="204.53" stroke-dasharray="204.53" />
+        <path id="hiragana-a-path1"
+            d="M231,176C208.5,241.5,63.5,397.5,20.5,355C-29.1398,305.937,114,209,193,196c76.671-12.617,132.323,18.411,129.5,76-2.5,51-26,83-119.5,115.5"
+            opacity="0" stroke-dashoffset="913.95" stroke-dasharray="913.95" />
+        <path id="hiragana-a-path2" d="M152.5,10c-19.5,97-48.5,250.5-6,347.5" opacity="0" stroke-dashoffset="352.41"
+            stroke-dasharray="352.41" />
+
+    </g>
+</svg>

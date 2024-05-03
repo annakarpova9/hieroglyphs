@@ -35,93 +35,13 @@
 }
 
 .content__hieroglyphs {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    clamp(12.5rem, 8.3333rem + 22.2222vw, 25rem)
+  );
   gap: clamp(1.875rem, 1.25rem + 3.3333vw, 3.75rem);
+  justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  width: clamp(12.5rem, 4.1667rem + 44.4444vw, 37.5rem);
+  width: 100%;
 }
-
-/* .hirogana-A {
-  height: inherit;
-  stroke: currentColor;
-  stroke-width: 20;
-  stroke-linecap: round;
-} 
-
-.hirogana-A__one {
-  stroke-dasharray: 300;
-  stroke-dashoffset: 300;
-  animation: one 2s ease-in-out forwards;
-}
-
-.hirogana-A__two {
-  stroke-dasharray: 600;
-  stroke-dashoffset: 600;
-  animation: two 3s ease-in-out 1.4s forwards;
-}
-
-.hirogana-A__three {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: three 4s ease-in-out 3.2s forwards;
-} */
-
-/* @keyframes one {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes two {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes three {
-  0% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 1;
-  }
-  100% {
-    stroke-dashoffset: 0;
-  }
-} */
-
-/* .hieroglyphs-btn {
-  position: absolute;
-  inline-size: 50%;
-  block-size: 50px;
-  padding-block-end: 10px;
-  border: 1px solid transparent;
-  background-color: transparent;
-  color: #c79494;
-  font-family: inherit;
-  font-size: clamp(0.75rem, 0.5833rem + 0.8889vw, 1.25rem);
-  font-weight: 400;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-.hieroglyphs-btn:hover {
-  border-block-end-color: #fff;
-  color: #fff;
-  transition: 0.3s ease;
-} */
