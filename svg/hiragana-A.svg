@@ -1,11 +1,96 @@
-<svg viewBox="0 0 333 398" class="hirogana-A" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g>
-        <path id="Vector 1" d="M152.5 10C133 107 104 260.5 146.5 357.5" stroke="#ce7171" stroke-width="20"
-            stroke-linecap="round" />
-        <path id="Vector 2"
-            d="M231 176C208.5 241.5 63.5 397.5 20.5 355C-29.1398 305.937 114 209 193 196C269.671 183.383 325.323 214.411 322.5 272C320 323 296.5 355 203 387.5"
-            stroke="#8a2828" stroke-width="20" stroke-linecap="round" />
-        <path id="Vector 1_2" d="M39.5 107.5C60.5 140 213.5 96 237.5 89" stroke="#d49999" stroke-width="20"
-            stroke-linecap="round" />
-    </g>
+<svg id="hiragana-a" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 333 398"
+  shape-rendering="geometricPrecision" text-rendering="geometricPrecision" style="cursor:pointer">
+  <g id="hiragana-a-u-hiragana-a" transform="translate(0 0.25)" fill="none" stroke="#fff" stroke-width="20"
+    stroke-linecap="round">
+    <path id="hiragana-a-s-path1"
+      d="M231,176C208.5,241.5,63.5,397.5,20.5,355C-29.1398,305.937,114,209,193,196c76.671-12.617,132.323,18.411,129.5,76-2.5,51-26,83-119.5,115.5"
+      opacity="0" stroke-dashoffset="913.95" stroke-dasharray="913.95" />
+    <path id="hiragana-a-s-path2" d="M152.5,10c-19.5,97-48.5,250.5-6,347.5" opacity="0" stroke-dashoffset="352.41"
+      stroke-dasharray="352.41" />
+    <path id="hiragana-a-s-path3" d="M39.5,107.5c21,32.5,174-11.5,198-18.5" opacity="0"
+      paint-order="stroke markers fill" stroke-dashoffset="204.53" stroke-dasharray="204.53" />
+  </g>
+  <script>
+    <![CDATA[
+    (function (s, i, u, o, c, w, d, t, n, x, e, p, a, b) {
+            (a =
+              Array.from(d.querySelectorAll("svg#" + i.root)).filter(
+                (n) => !n.svgatorPlayer
+              )[0] || {}).svgatorPlayer = {
+              ready: (function (a) {
+                b = [];
+                return function (c) {
+                  return c ? (b.push(c), a.svgatorPlayer) : b;
+                };
+              })(a),
+            };
+            w[o] = w[o] || {};
+            w[o][s] = w[o][s] || [];
+            w[o][s].push(i);
+            e = d.createElementNS(n, t);
+            e.async = true;
+            e.setAttributeNS(x, "href", [u, s, ".", "j", "s", "?", "v", "=", c].join(""));
+            e.setAttributeNS(
+              null,
+              "src",
+              [u, s, ".", "j", "s", "?", "v", "=", c].join("")
+            );
+            p = d.getElementsByTagName(t)[0];
+            p.parentNode.insertBefore(e, p);
+          })(
+            "91c80d77",
+            {
+              root: "hiragana-a",
+              version: "2022-05-04",
+              animations: [
+                {
+                  elements: {
+                    "hiragana-a-s-path1": {
+                      opacity: [
+                        { t: 3600, v: 0, e: [0.42, 0, 0.58, 1] },
+                        { t: 4600, v: 1 },
+                      ],
+                      "stroke-dashoffset": [
+                        { t: 3800, v: 913.95, e: [0.42, 0, 0.58, 1] },
+                        { t: 7000, v: 0, e: [0.42, 0, 0.58, 1] },
+                      ],
+                    },
+                    "hiragana-a-s-path2": {
+                      opacity: [
+                        { t: 1600, v: 0, e: [0.42, 0, 0.58, 1] },
+                        { t: 2500, v: 1 },
+                      ],
+                      "stroke-dashoffset": [
+                        { t: 1800, v: 352.41, e: [0.42, 0, 0.58, 1] },
+                        { t: 4000, v: 0 },
+                      ],
+                    },
+                    "hiragana-a-s-path3": {
+                      opacity: [
+                        { t: 0, v: 0, e: [0.42, 0, 0.58, 1] },
+                        { t: 1000, v: 1 },
+                      ],
+                      "stroke-dashoffset": [
+                        { t: 200, v: 204.53, e: [0.42, 0, 0.58, 1] },
+                        { t: 2000, v: 0 },
+                      ],
+                    },
+                  },
+                  s: "MDTA1ZGNhNzFiMH09jNGMxYjBJIYzNiOGJlYmQL3MTg5ODY3ZjYdmN2Y3YjcxYEjNiOGMxYjRiGMlBjM2I4YmVAiZDcxQTg5ODHA3YjcxV2I4YDzNiNGMxUWIwYYzNiOGJlYmRQjMjcxODk4MEUY3YjcxYjViODGJiYmJMNzE4UOTgwN2I3MWIBwYmJjM2I0YzJFiZEdiMGMzYSjQ3MTg5YjViNME1iYmMyYjQY3YjcxYzJiZmAI0YjRiM0s3MQTg5QjgwN2I3HMWI1YmZjMjcLxODk4MDdmN2FZjYw|",
+                },
+              ],
+              options:
+                "MDXAyMjgxMjg3OBVM3YVU2Nzc4VN2EyODQwMjgY2OTcyNmY2OTKcxMjgzMjI4TDjY5WDcyNmY2OOTcxTDI4NDAMyODZjNzg2YjEZiODA2YjI4OMDM/",
+            },
+            "https://cdn.svgator.com/ply/",
+            "__SVGATOR_PLAYER__",
+            "2022-05-04",
+            window,
+            document,
+            "script",
+            "http://www.w3.org/2000/svg",
+            "http://www.w3.org/1999/xlink"
+          );
+    ]]>
+  </script>
 </svg>

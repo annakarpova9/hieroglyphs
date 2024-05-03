@@ -7,6 +7,7 @@
   max-inline-size: 1200px;
   min-inline-size: 300px;
   block-size: 100vh;
+  min-block-size: 668px;
   margin: 0 auto;
   color: #fff;
   font-family: Inter, sans-serif;
@@ -42,33 +43,30 @@
   width: clamp(12.5rem, 4.1667rem + 44.4444vw, 37.5rem);
 }
 
-.hirogana-A {
+/* .hirogana-A {
   height: inherit;
   stroke: currentColor;
   stroke-width: 20;
   stroke-linecap: round;
-}
+} 
 
 .hirogana-A__one {
   stroke-dasharray: 300;
-  opacity: 0;
-  /* stroke-dashoffset: 300; */
-  /* animation: one 2s ease-in-out forwards; */
+  stroke-dashoffset: 300;
+  animation: one 2s ease-in-out forwards;
 }
 
 .hirogana-A__two {
   stroke-dasharray: 600;
-  opacity: 0;
-  /* stroke-dashoffset: 600; */
-  /* animation: two 3s ease-in-out 1.4s forwards; */
+  stroke-dashoffset: 600;
+  animation: two 3s ease-in-out 1.4s forwards;
 }
 
 .hirogana-A__three {
   stroke-dasharray: 1000;
-  opacity: 0;
-  /* stroke-dashoffset: 1000; */
-  /* animation: three 4s ease-in-out 3.2s forwards; */
-}
+  stroke-dashoffset: 1000;
+  animation: three 4s ease-in-out 3.2s forwards;
+} */
 
 /* @keyframes one {
   0% {
@@ -80,9 +78,9 @@
   100% {
     stroke-dashoffset: 0;
   }
-} */
+}
 
-/* @keyframes two {
+@keyframes two {
   0% {
     opacity: 0;
   }
@@ -92,9 +90,9 @@
   100% {
     stroke-dashoffset: 0;
   }
-} */
+}
 
-/* @keyframes three {
+@keyframes three {
   0% {
     opacity: 0;
   }
@@ -106,11 +104,12 @@
   }
 } */
 
-.hieroglyphs-btn {
+/* .hieroglyphs-btn {
+  position: absolute;
   inline-size: 50%;
   block-size: 50px;
-  border-radius: 10px;
-  border: 1px solid #c79494;
+  padding-block-end: 10px;
+  border: 1px solid transparent;
   background-color: transparent;
   color: #c79494;
   font-family: inherit;
@@ -122,7 +121,7 @@
 }
 
 .hieroglyphs-btn:hover {
-  border-color: #fff;
+  border-block-end-color: #fff;
   color: #fff;
   transition: 0.3s ease;
-}
+} */

@@ -11,6 +11,7 @@ const DEFAULT_OPTIONS = {
   fill: "forwards",
   easing: "ease-in-out",
 };
+
 function animateElement(element, frames, options) {
   element.animate(frames, options);
 }
