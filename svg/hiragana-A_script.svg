@@ -13,84 +13,83 @@
   <script>
     <![CDATA[
     (function (s, i, u, o, c, w, d, t, n, x, e, p, a, b) {
-            (a =
-              Array.from(d.querySelectorAll("svg#" + i.root)).filter(
-                (n) => !n.svgatorPlayer
-              )[0] || {}).svgatorPlayer = {
-              ready: (function (a) {
-                b = [];
-                return function (c) {
-                  return c ? (b.push(c), a.svgatorPlayer) : b;
-                };
-              })(a),
+        (a =
+          Array.from(d.querySelectorAll("svg#" + i.root)).filter(
+            (n) => !n.svgatorPlayer
+          )[0] || {}).svgatorPlayer = {
+          ready: (function (a) {
+            b = [];
+            return function (c) {
+              return c ? (b.push(c), a.svgatorPlayer) : b;
             };
-            w[o] = w[o] || {};
-            w[o][s] = w[o][s] || [];
-            w[o][s].push(i);
-            e = d.createElementNS(n, t);
-            e.async = true;
-            e.setAttributeNS(x, "href", [u, s, ".", "j", "s", "?", "v", "=", c].join(""));
-            e.setAttributeNS(
-              null,
-              "src",
-              [u, s, ".", "j", "s", "?", "v", "=", c].join("")
-            );
-            p = d.getElementsByTagName(t)[0];
-            p.parentNode.insertBefore(e, p);
-          })(
-            "91c80d77",
+          })(a),
+        };
+        w[o] = w[o] || {};
+        w[o][s] = w[o][s] || [];
+        w[o][s].push(i);
+        e = d.createElementNS(n, t);
+        e.async = true;
+        e.setAttributeNS(x, "href", [u, s, ".", "j", "s", "?", "v", "=", c].join(""));
+        e.setAttributeNS(
+          null,
+          "src",
+          [u, s, ".", "j", "s", "?", "v", "=", c].join("")
+        );
+        p = d.getElementsByTagName(t)[0];
+        p.parentNode.insertBefore(e, p);
+      })(
+        "91c80d77",
+        {
+          root: "hiragana-a",
+          version: "2022-05-04",
+          animations: [
             {
-              root: "hiragana-a",
-              version: "2022-05-04",
-              animations: [
-                {
-                  elements: {
-                    "hiragana-a-s-path1": {
-                      opacity: [
-                        { t: 3600, v: 0, e: [0.42, 0, 0.58, 1] },
-                        { t: 4600, v: 1 },
-                      ],
-                      "stroke-dashoffset": [
-                        { t: 3800, v: 913.95, e: [0.42, 0, 0.58, 1] },
-                        { t: 7000, v: 0, e: [0.42, 0, 0.58, 1] },
-                      ],
-                    },
-                    "hiragana-a-s-path2": {
-                      opacity: [
-                        { t: 1600, v: 0, e: [0.42, 0, 0.58, 1] },
-                        { t: 2500, v: 1 },
-                      ],
-                      "stroke-dashoffset": [
-                        { t: 1800, v: 352.41, e: [0.42, 0, 0.58, 1] },
-                        { t: 4000, v: 0 },
-                      ],
-                    },
-                    "hiragana-a-s-path3": {
-                      opacity: [
-                        { t: 0, v: 0, e: [0.42, 0, 0.58, 1] },
-                        { t: 1000, v: 1 },
-                      ],
-                      "stroke-dashoffset": [
-                        { t: 200, v: 204.53, e: [0.42, 0, 0.58, 1] },
-                        { t: 2000, v: 0 },
-                      ],
-                    },
-                  },
-                  s: "MDTA1ZGNhNzFiMH09jNGMxYjBJIYzNiOGJlYmQL3MTg5ODY3ZjYdmN2Y3YjcxYEjNiOGMxYjRiGMlBjM2I4YmVAiZDcxQTg5ODHA3YjcxV2I4YDzNiNGMxUWIwYYzNiOGJlYmRQjMjcxODk4MEUY3YjcxYjViODGJiYmJMNzE4UOTgwN2I3MWIBwYmJjM2I0YzJFiZEdiMGMzYSjQ3MTg5YjViNME1iYmMyYjQY3YjcxYzJiZmAI0YjRiM0s3MQTg5QjgwN2I3HMWI1YmZjMjcLxODk4MDdmN2FZjYw|",
+              elements: {
+                "hiragana-a-s-path1": {
+                  opacity: [
+                    { t: 3600, v: 0, e: [0.42, 0, 0.58, 1] },
+                    { t: 4600, v: 1 },
+                  ],
+                  "stroke-dashoffset": [
+                    { t: 3800, v: 913.95, e: [0.42, 0, 0.58, 1] },
+                    { t: 7000, v: 0, e: [0.42, 0, 0.58, 1] },
+                  ],
                 },
-              ],
-              options:
-                "MDXAyMjgxMjg3OBVM3YVU2Nzc4VN2EyODQwMjgY2OTcyNmY2OTKcxMjgzMjI4TDjY5WDcyNmY2OOTcxTDI4NDAMyODZjNzg2YjEZiODA2YjI4OMDM/",
+                "hiragana-a-s-path2": {
+                  opacity: [
+                    { t: 1600, v: 0, e: [0.42, 0, 0.58, 1] },
+                    { t: 2500, v: 1 },
+                  ],
+                  "stroke-dashoffset": [
+                    { t: 1800, v: 352.41, e: [0.42, 0, 0.58, 1] },
+                    { t: 4000, v: 0 },
+                  ],
+                },
+                "hiragana-a-s-path3": {
+                  opacity: [
+                    { t: 0, v: 0, e: [0.42, 0, 0.58, 1] },
+                    { t: 1000, v: 1 },
+                  ],
+                  "stroke-dashoffset": [
+                    { t: 200, v: 204.53, e: [0.42, 0, 0.58, 1] },
+                    { t: 2000, v: 0 },
+                  ],
+                },
+              },
+              s: "MDKA1ZGNhNzFiMN0FjNGMxYjBjWM2I4YmViZDcQxODlZODY3ZlDE3ZjdmUjdiNIzFiM2I4YzFiONGIyYzNiOGJAlYmQ3MTg5ODLA3YjcxYjhjME2I0YzFiMGMzVYjhiZWJkYzJPWNzE4OTgwUDXdiNzFiNWI4YFmJiYjcxODlFOODA3YjcxYjBXiYmMzYjRjMWQJkU2IwYzNiNHDcxODliNU5iQMGJiWVFjMmIY0N2JVNzFjMmUJmYjRRYjRiMS0k3MTg5ODA3UYjcxYjViZmMLyNzE4OTgwN2UY3ZmNj",
             },
-            "https://cdn.svgator.com/ply/",
-            "__SVGATOR_PLAYER__",
-            "2022-05-04",
-            window,
-            document,
-            "script",
-            "http://www.w3.org/2000/svg",
-            "http://www.w3.org/1999/xlink"
-          );
+          ],
+          options: "MDUAxMDhiMzI4MAzg0NzE4Mjg0XMzI0YTMyQzdCjUTdmNzE3NDWMyOGQ/",
+        },
+        "https://cdn.svgator.com/ply/",
+        "__SVGATOR_PLAYER__",
+        "2022-05-04",
+        window,
+        document,
+        "script",
+        "http://www.w3.org/2000/svg",
+        "http://www.w3.org/1999/xlink"
+      );
     ]]>
   </script>
 </svg>
